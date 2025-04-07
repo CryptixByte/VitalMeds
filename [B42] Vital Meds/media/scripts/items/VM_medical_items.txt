@@ -1,0 +1,95 @@
+module VMItems
+{
+    imports 
+    {
+        Base
+    }
+    
+    item MorphineInjector
+    {
+        DisplayName = Morphine Injector,
+        DisplayCategory = FirstAid,
+        Count = 1,
+        Type = Normal,
+        Weight = 0.1,
+        Icon = MorphineInjector,
+        WorldStaticModel = MorphineInjector_Ground,
+    }
+
+    item MorphineInjectorBox
+    {
+        DisplayName = Box of Morphine Injectors,
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        Weight = 2,
+        Icon = GenericMedicalParcel2,
+        Medical = TRUE,
+        WorldStaticModel = MedicalParcel_Red,
+    }
+
+    item AdrenalineInjector
+    {
+        DisplayName = Adrenaline Injector,
+        DisplayCategory = FirstAid,
+        Count = 1,
+        Type = Normal,
+        Weight = 0.1,
+        Icon = AdrenalineInjector,
+        WorldStaticModel = AdrenalineInjector_Ground,
+    }
+
+    item AdrenalineInjectorBox
+    {
+        DisplayName = Box of Adrenaline Injectors,
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        Weight = 2,
+        Icon = GenericMedicalParcel2,
+        Medical = TRUE,
+        WorldStaticModel = MedicalParcel_Red,
+    }
+
+    item EmptyInjector
+    {
+        DisplayName = Empty Injector,
+        DisplayCategory = Junk,
+        Count = 1,
+        Weight = 0.1,
+        Type = Normal,
+        Icon = EmptyAutoInjector,
+        WorldStaticModel = EmptyAutoInjector_Ground,
+    }
+
+    item IVStartKit
+    {
+        DisplayName = IV Start Kit,
+        DisplayCategory = FirstAid,
+        Count = 1,
+        Type = Normal,
+        Weight = 0.1,
+        Icon = IVStartKit,
+        WorldStaticModel = IVStartKit_Ground,
+    }
+
+    item SalineBag
+    {
+        DisplayName = Saline Bag,
+        DisplayCategory = FirstAid,
+        Count = 1,
+        Type = Normal,
+        Weight = 0.5,
+        Icon = SalineBag,
+        WorldStaticModel = SalineBag_Ground,
+    }
+
+    item IVSalineBag
+    {
+        DisplayName = IV Saline Bag,
+        DisplayCategory = FirstAid,
+        Count = 1,
+        Type = Normal,
+        Weight = 0.6,
+        Icon = IVSalineBag,
+        WorldStaticModel = IVSalineBag_Ground,
+    }
+}

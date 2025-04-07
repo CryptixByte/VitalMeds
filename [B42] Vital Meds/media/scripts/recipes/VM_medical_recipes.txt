@@ -1,0 +1,44 @@
+module VMRecipes
+{
+    imports
+    {
+        Base
+    }
+}
+{
+    craftRecipe Combine Start Kit To Saline Bag
+    {
+        timedAction = CombineIVStartKitSalineBag,
+        Time = 60,
+        NeedsToBeLearn = TRUE,
+        Tags = AnySurfaceCraft;Health,
+    category = Medical,
+    AutoLearnAny = Doctor:7,
+        inputs 
+        {
+            item 1 [VMMedicalItems.IVStartKit],
+            item 1 [VMMedicalItems.SalineBag],
+        }
+        outputs
+        {
+            item 1 VMMedicalItems.IVSalineBag,
+        }
+    }
+
+    craftRecipe Open IFAKV1
+    {
+        VM_IFAKV1,
+
+
+    }
+
+    craftRecipe Open IFAKV2
+    {
+        VM_IFAKV2,
+    }
+
+    craftRecipe Open Grizzly
+    {
+        VM_Grizzly,
+    }
+}

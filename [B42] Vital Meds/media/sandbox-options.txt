@@ -1,0 +1,15 @@
+VERSION = 1,
+
+
+option vitalMeds.BasicItemDistributionRate
+{
+    
+}
+
+option VitalMeds.TruamaKitDistributionRate
+{
+    type = integer,
+    min = 0,
+    default = 1,
+    max = 4,
+}

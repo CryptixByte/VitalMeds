@@ -1,0 +1,40 @@
+module VMMiscItems
+{
+    imports 
+    {
+        Base
+    }
+
+    item IFAKV1
+    {
+        DisplayName = IFAK V1,
+        DisplayCategory = Camping,
+        Weight = 2.0,
+        Type = Normal,
+        Medical = TRUE,
+        Icon = iFakV1,
+        WorldStaticModel = iFakV1_Static,
+    }
+
+    item IFAKV2
+    {
+        DisplayName = IFAK V2,
+        DisplayCategory = Medical,
+        Weight = 4.0,
+        Type = Normal,
+        Medical = TRUE,
+        Icon = iFakV2,
+        WorldStaticModel = iFakV2_Static
+    }
+
+    item Grizzly
+    {
+        DisplayName = Grizzly Truama Kit,
+        DisplayCategory = Medical,
+        Weight = 6.0,
+        Type = Normal,
+        Medical = TRUE,
+        Icon = Grizzly,
+        WorldStaticModel = Grizzly_Static,
+    }
+}
